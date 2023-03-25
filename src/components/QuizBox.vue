@@ -139,14 +139,14 @@ const submitAnswer = () => {
 <style scoped>
 
 .form{
+    width: 100%;
     height: 100%;
+    /* 设置表格的位置和布局 */
+    position: relative;
     display: flex;
     flex-direction: column;
-}
-
-.questionBox{
-    flex: 1;
-    padding: 2px;
+    justify-content: center;
+    align-items: center;
 }
 
 .formBtn {
@@ -161,10 +161,6 @@ const submitAnswer = () => {
     margin: 1rem;
 }
 
-.question{
-    margin-bottom: 2px;
-    display: flex;
-}
 
 .q-title{
     height: 55px;
@@ -178,10 +174,17 @@ const submitAnswer = () => {
     font-size: 15px;
 }
 
+.question{
+    margin-bottom: 2px;
+    display: flex;
+    overflow: auto;    
+}
+
 .option{
     display: flex;
     padding: 3px 0;
     font-size: 20px;
+    margin-top: 20px;
 }
 
 .option input{
