@@ -167,8 +167,8 @@ const submitAnswer = () => {
 }
 
 .q-title{
-    height: 21px;
-    font-size: 12px;
+    height: 55px;
+    font-size: 25px;
     color: #111217;
 }
 
@@ -181,7 +181,7 @@ const submitAnswer = () => {
 .option{
     display: flex;
     padding: 3px 0;
-    font-size: 12px;
+    font-size: 20px;
 }
 
 .option input{
